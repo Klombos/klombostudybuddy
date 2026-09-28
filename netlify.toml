@@ -1,0 +1,38 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Game files are hosted on slnt.calculra.store. The app loads them through
+# same-origin paths (/f/g/hs/<host>/...), which the Node backend normally
+# proxies. On Netlify we proxy them with rewrites instead.
+[[redirects]]
+  from = "/f/g/hs/slnt.calculra.store/*"
+  to = "https://slnt.calculra.store/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/!!/https://slnt.calculra.store/*"
+  to = "https://slnt.calculra.store/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/!!/https:/slnt.calculra.store/*"
+  to = "https://slnt.calculra.store/:splat"
+  status = 200
+  force = true
+
+# The Express backend (/api/*) isn't deployed on Netlify. Return a JSON 404
+# so the app falls back cleanly instead of trying to parse index.html as JSON.
+[[redirects]]
+  from = "/api/*"
+  to = "/api-offline.json"
+  status = 404
+  force = true
+
+# Single-page app fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1046,7 +1046,7 @@ function NewTabPage({ onNavigate }: { onNavigate: (url: string) => void }) {
           className="text-[2rem] sm:text-[2.15rem] font-extrabold text-white tracking-tight"
           style={{ textShadow: "0 0 40px hsla(205, 80%, 60%, 0.25)" }}
         >
-          <ObfuscatedText as="span">PeteZah</ObfuscatedText>
+          <ObfuscatedText as="span">the klombo's game shack</ObfuscatedText>
         </motion.h1>
 
         <motion.div

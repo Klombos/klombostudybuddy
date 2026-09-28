@@ -60,7 +60,7 @@ export default function SharedAiPage() {
             textDecoration: "none",
           }}
         >
-          Open PeteZah
+          Open the klombo's game shack
         </Link>
       </header>
 
