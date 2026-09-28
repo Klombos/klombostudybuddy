@@ -1316,7 +1316,7 @@ export default function MusicPage({
               <p style={{ margin: "10px 0 0", fontSize: 10, color: S.textMuted, lineHeight: 1.4 }}>
                 Playback is requested through official SoundCloud and YouTube embed/API surfaces where available.
                 Metadata may come from third-party catalog APIs (including iTunes Search). Licensing, geo rules,
-                and takedowns for each track are determined by those platforms and their rights holders — not by PeteZah as a label.
+                and takedowns for each track are determined by those platforms and their rights holders — not by the klombo's game shack as a label.
               </p>
             </div>
           </div>

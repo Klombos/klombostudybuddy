@@ -955,9 +955,9 @@ function MoviePlayer({
                     color: S.textMuted,
                     maxWidth: 420,
                   }}>
-                    Metadata from third-party catalog services. PeteZah does not host audiovisual files.
+                    Metadata from third-party catalog services. the klombo's game shack does not host audiovisual files.
                     Playback is requested from separate third-party sources through the browsing layer.
-                    Authorization depends on those sources and your local law — not a PeteZah license.
+                    Authorization depends on those sources and your local law — not a the klombo's game shack license.
                   </p>
                 </div>
               </div>
@@ -1521,7 +1521,7 @@ export default function MoviesPage({
             color: S.textMuted,
             maxWidth: 560,
           }}>
-            Film &amp; TV metadata is for discovery. PeteZah does not host or store the underlying audiovisual files.
+            Film &amp; TV metadata is for discovery. the klombo's game shack does not host or store the underlying audiovisual files.
             Opening a title requests content from separate third-party sources through the browsing layer.
             See Terms §6 and the DMCA policy for architecture and complaint handling.
           </p>
